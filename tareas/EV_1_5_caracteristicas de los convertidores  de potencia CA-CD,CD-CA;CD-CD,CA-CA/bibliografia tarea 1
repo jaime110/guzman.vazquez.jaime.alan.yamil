@@ -1,0 +1,12 @@
+% Encoding: UTF-8
+
+@Article{W.Hart,
+  author  = {Daniel W.Hart},
+  journal = {Pearson Prentice Hall},
+  title   = {Electronica de potencia},
+  year    = {1997},
+  issn    = {0-02-351182-6},
+  file    = {bibliografia:EV_1_5_caracteristicas de los convertidores de potencia CA-CD,CD-CA,CA-CA,CD-CD.tex:TEX},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
