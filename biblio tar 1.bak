@@ -1,0 +1,11 @@
+% Encoding: UTF-8
+
+@Article{bibliografiatarea1,
+  author  = {Daniel W. Hart},
+  journal = {Pearson Prentice Hall},
+  title   = {Electronica de potencia},
+  year    = {1997},
+  issn    = {84-205-3179-0},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
