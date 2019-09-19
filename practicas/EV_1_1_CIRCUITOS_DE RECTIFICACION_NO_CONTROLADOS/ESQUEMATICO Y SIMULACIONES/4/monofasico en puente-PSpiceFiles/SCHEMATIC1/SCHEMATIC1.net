@@ -1,0 +1,10 @@
+* source MONOFASICO EN PUENTE
+V_V1         N00235 N00280 DC 0Vdc AC 1Vac 
+L_L1         N00235 N00242  1mh  
+R_R1         N00242 N00318  10  
+R_R2         0 N00246  10  
+C_C1         N00246 0  1mf   
+D_D1         N00318 N00246 Dbreak 
+D_D2         N00280 N00246 Dbreak 
+D_D3         0 N00318 Dbreak 
+D_D4         0 N00280 Dbreak 

@@ -1,0 +1,137 @@
+
+**** 09/11/19 23:01:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicopuente1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\4\monofasico en puente-PSpiceFiles\SC
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "monofasicopuente1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN/OP  0 100m 40m 100m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MONOFASICO EN PUENTE
+V_V1         N00235 N00280 DC 0Vdc AC 1Vac 
+L_L1         N00235 N00242  1mh  
+R_R1         N00242 N00318  10  
+R_R2         0 N00246  10  
+C_C1         N00246 0  1mf   
+D_D1         N00318 N00246 Dbreak 
+D_D2         N00280 N00246 Dbreak 
+D_D3         0 N00318 Dbreak 
+D_D4         0 N00280 Dbreak 
+
+**** RESUMING monofasicopuente1.cir ****
+.END
+
+**** 09/11/19 23:01:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicopuente1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\4\monofasico en puente-PSpiceFiles\SC
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 09/11/19 23:01:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicopuente1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\4\monofasico en puente-PSpiceFiles\SC
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00235) 453.7E-21 (N00242) 453.7E-21 (N00246) 4.519E-30 (N00280) 453.7E-21     
+
+(N00318) 453.7E-21 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 09/11/19 23:01:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicopuente1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\4\monofasico en puente-PSpiceFiles\SC
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         D_D1        D_D2        D_D3        D_D4      
+MODEL        Dbreak      Dbreak      Dbreak      Dbreak    
+ID           0.00E+00    0.00E+00   -0.00E+00   -0.00E+00 
+VD           4.54E-19    4.54E-19   -4.54E-19   -4.54E-19 
+REQ          7.21E+11    7.21E+11    7.21E+11    7.21E+11 
+CAP          1.00E-13    1.00E-13    1.00E-13    1.00E-13 
+
+          JOB CONCLUDED
+
+**** 09/11/19 23:01:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicopuente1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\4\monofasico en puente-PSpiceFiles\SC
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       54.77
+  Total job time (using Solver 1)   =         .08
+

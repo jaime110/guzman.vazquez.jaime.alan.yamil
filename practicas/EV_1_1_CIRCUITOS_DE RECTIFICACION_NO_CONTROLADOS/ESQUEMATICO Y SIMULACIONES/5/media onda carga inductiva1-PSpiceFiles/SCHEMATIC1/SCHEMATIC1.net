@@ -1,0 +1,5 @@
+* source MEDIA ONDA CARGA INDUCTIVA1
+V_V2         N00685 N00700 DC 0Vdc AC 1Vac 50hz
+D_D2         N00685 N00689 Dbreak 
+L_L2         N00689 N00693  10mh  
+R_R2         N00700 N00693  10  

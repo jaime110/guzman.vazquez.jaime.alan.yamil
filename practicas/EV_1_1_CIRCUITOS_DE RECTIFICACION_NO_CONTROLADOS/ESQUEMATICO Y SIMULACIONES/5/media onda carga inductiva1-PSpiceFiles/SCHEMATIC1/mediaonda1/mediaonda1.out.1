@@ -1,0 +1,49 @@
+
+**** 09/11/19 23:31:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-mediaonda1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\5\media onda carga inductiva1-PSpiceFiles\SC
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "mediaonda1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 40m 100m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MEDIA ONDA CARGA INDUCTIVA1
+V_V2         N00685 N00700 DC 0Vdc AC 1Vac 50hz
+D_D2         N00685 N00689 Dbreak 
+L_L2         N00689 N00693  10mh  
+R_R2         N00700 N00693  10  
+
+**** RESUMING mediaonda1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00685 is floating
+
+ERROR(ORPSIM-15142): Node N00700 is floating
+
+ERROR(ORPSIM-15142): Node N00689 is floating
+
+ERROR(ORPSIM-15142): Node N00693 is floating
+

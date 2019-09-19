@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/12
+    monofasico en puente.opj
+    monofasico en puente.dsn
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/12/monofasico en puente-PSpiceFiles
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/12/monofasico en puente-PSpiceFiles/SCHEMATIC1

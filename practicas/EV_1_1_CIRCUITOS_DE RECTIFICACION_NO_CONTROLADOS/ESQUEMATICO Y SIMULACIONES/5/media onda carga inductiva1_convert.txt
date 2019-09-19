@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/5
+    media onda carga inductiva1.opj
+    media onda carga inductiva1.dsn
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/5/media onda carga inductiva1-PSpiceFiles
+C:/Users/emile/Desktop/practica 1 ,1-PSpiceFiles/5/media onda carga inductiva1-PSpiceFiles/SCHEMATIC1
