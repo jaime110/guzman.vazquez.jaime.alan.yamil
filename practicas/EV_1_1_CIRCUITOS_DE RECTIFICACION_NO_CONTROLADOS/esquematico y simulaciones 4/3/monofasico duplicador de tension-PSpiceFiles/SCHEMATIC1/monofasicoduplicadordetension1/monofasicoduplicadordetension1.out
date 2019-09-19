@@ -1,0 +1,109 @@
+
+**** 09/11/19 23:20:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicoduplicadordetension1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\3\monofasico duplicador 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "monofasicoduplicadordetension1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 40m 100m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MONOFASICO DUPLICADOR DE TENSION
+C_C1         N00207 N00258  1mf   
+C_C2         N00258 0  1mf   
+L_L1         N00194 N00203  1mh  
+R_R1         0 N00207  1k  
+V_V1         N00194 N00258 DC 0Vdc AC 1Vac 
+D_D4         N00203 N00207 Dbreak 
+D_D5         0 N00203 Dbreak 
+
+**** RESUMING monofasicoduplicadordetension1.cir ****
+.END
+
+**** 09/11/19 23:20:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicoduplicadordetension1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\3\monofasico duplicador 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 09/11/19 23:20:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicoduplicadordetension1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\3\monofasico duplicador 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00194)-288.4E-21 (N00203)-288.4E-21 (N00207) 685.4E-30 (N00258)-288.4E-21 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/11/19 23:20:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicoduplicadordetension1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\3\monofasico duplicador 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       54.80
+  Total job time (using Solver 1)   =         .06
+

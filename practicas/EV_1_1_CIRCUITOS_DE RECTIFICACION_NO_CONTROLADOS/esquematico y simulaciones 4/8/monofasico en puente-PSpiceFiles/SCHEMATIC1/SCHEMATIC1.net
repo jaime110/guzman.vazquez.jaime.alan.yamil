@@ -1,0 +1,11 @@
+* source MONOFASICO EN PUENTE
+L_L1         N00235 N00242  1mh  
+R_R1         N00242 N00318  10  
+R_R2         0 1  100  
+C_C1         1 0  1uf   
+D_D1         N00318 1 Dbreak 
+D_D2         N00280 1 Dbreak 
+D_D3         0 N00318 Dbreak 
+D_D4         0 N00280 Dbreak 
+V_V1         N00235 N00280  AC 0
++SIN 0 311.13 50 0 0 0

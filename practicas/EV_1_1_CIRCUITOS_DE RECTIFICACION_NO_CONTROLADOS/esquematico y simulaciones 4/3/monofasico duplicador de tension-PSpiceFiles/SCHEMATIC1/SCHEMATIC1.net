@@ -1,0 +1,8 @@
+* source MONOFASICO DUPLICADOR DE TENSION
+C_C1         N00207 N00258  1mf   
+C_C2         N00258 0  1mf   
+L_L1         N00194 N00203  1mh  
+R_R1         0 N00207  1k  
+V_V1         N00194 N00258 DC 0Vdc AC 1Vac 
+D_D4         N00203 N00207 Dbreak 
+D_D5         0 N00203 Dbreak 

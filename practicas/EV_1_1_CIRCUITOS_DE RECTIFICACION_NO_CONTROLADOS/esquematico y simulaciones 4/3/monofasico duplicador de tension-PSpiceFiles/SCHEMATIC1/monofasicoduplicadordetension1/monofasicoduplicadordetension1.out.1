@@ -1,0 +1,54 @@
+
+**** 09/11/19 23:17:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-monofasicoduplicadordetension1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\3\monofasico duplicador 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "monofasicoduplicadordetension1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 40m 100m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MONOFASICO DUPLICADOR DE TENSION
+C_C1         N00207 N00258  1mf   
+C_C2         N00258 N00216  1mf   
+L_L1         N00194 N00203  1mh  
+R_R1         N00216 N00207  1k  
+V_V1         N00194 N00258 DC 0Vdc AC 1Vac 
+D_D4         N00203 N00207 Dbreak 
+D_D5         N00216 N00203 Dbreak 
+
+**** RESUMING monofasicoduplicadordetension1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00207 is floating
+
+ERROR(ORPSIM-15142): Node N00258 is floating
+
+ERROR(ORPSIM-15142): Node N00216 is floating
+
+ERROR(ORPSIM-15142): Node N00194 is floating
+
+ERROR(ORPSIM-15142): Node N00203 is floating
+

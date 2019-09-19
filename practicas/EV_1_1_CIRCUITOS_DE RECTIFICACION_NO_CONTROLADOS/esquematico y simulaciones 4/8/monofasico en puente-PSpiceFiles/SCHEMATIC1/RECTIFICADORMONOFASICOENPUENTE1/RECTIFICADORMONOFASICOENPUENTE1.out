@@ -1,0 +1,114 @@
+
+**** 09/12/19 11:10:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RECTIFICADORMONOFASICOENPUENTE1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\8\monofasico en puente-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "RECTIFICADORMONOFASICOENPUENTE1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100M 0 20m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MONOFASICO EN PUENTE
+L_L1         N00235 N00242  1mh  
+R_R1         N00242 N00318  10  
+R_R2         0 1  100  
+C_C1         1 0  1uf   
+D_D1         N00318 1 Dbreak 
+D_D2         N00280 1 Dbreak 
+D_D3         0 N00318 Dbreak 
+D_D4         0 N00280 Dbreak 
+V_V1         N00235 N00280  AC 0
++SIN 0 311.13 50 0 0 0
+
+**** RESUMING RECTIFICADORMONOFASICOENPUENTE1.cir ****
+.END
+
+**** 09/12/19 11:10:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RECTIFICADORMONOFASICOENPUENTE1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\8\monofasico en puente-
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 09/12/19 11:10:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RECTIFICADORMONOFASICOENPUENTE1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\8\monofasico en puente-
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 53.60E-30  (N00235) 429.7E-21 (N00242) 429.7E-21 (N00280) 429.7E-21     
+
+(N00318) 429.7E-21 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/12/19 11:10:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RECTIFICADORMONOFASICOENPUENTE1"  [ C:\Users\emile\Desktop\practica 1 ,1-PSpiceFiles\8\monofasico en puente-
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       54.80
+  Total job time (using Solver 1)   =         .11
+

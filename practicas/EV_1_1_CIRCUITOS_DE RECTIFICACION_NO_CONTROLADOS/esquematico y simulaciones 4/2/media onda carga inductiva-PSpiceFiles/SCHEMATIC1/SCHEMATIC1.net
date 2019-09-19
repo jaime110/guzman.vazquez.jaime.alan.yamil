@@ -1,0 +1,5 @@
+* source MEDIA ONDA CARGA INDUCTIVA
+V_V1         N00142 GND DC 0Vdc AC 311vac 
+D_D1         N00142 N00379 Dbreak 
+L_L1         N00379 N00155  10mh  
+R_R1         GND N00155  10  
