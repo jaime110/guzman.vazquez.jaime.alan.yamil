@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/emile/Desktop/guzman.vazquez.jaime.alan.yamil/practicas/EV_1_1_CIRCUITOS_DE RECTIFICACION_NO_CONTROLADOS/esquematicos y simulaciones 2/2
+    Parte 1,5.opj
+    parte 1,5.dsn
+C:/Users/emile/Desktop/guzman.vazquez.jaime.alan.yamil/practicas/EV_1_1_CIRCUITOS_DE RECTIFICACION_NO_CONTROLADOS/esquematicos y simulaciones 2/2/Parte 1,5-PSpiceFiles
+C:/Users/emile/Desktop/guzman.vazquez.jaime.alan.yamil/practicas/EV_1_1_CIRCUITOS_DE RECTIFICACION_NO_CONTROLADOS/esquematicos y simulaciones 2/2/Parte 1,5-PSpiceFiles/SCHEMATIC1

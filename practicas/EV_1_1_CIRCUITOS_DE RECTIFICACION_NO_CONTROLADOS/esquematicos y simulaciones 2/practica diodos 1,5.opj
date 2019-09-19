@@ -1,0 +1,49 @@
+(ExpressProject "practica diodos 1,5"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\practica diodos 1,5.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Cadence\SPB_16.5\tools\capture\practica diodos 1,5.dsn")
+      (Path "Design Resources"
+         "C:\Cadence\SPB_16.5\tools\capture\practica diodos 1,5.dsn"
+         "SCHEMATIC1")
+      (Path "PSpice Resources")
+      (Select "Design Resources"
+         "C:\Cadence\SPB_16.5\tools\capture\practica diodos 1,5.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 0 200 0 222"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 0 826 0 269")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\PRACTICA DIODOS 1,5.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
