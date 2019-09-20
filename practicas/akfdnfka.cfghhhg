@@ -1,9 +1,0 @@
-#include <stdio.h>
-int main(){
-printf("que pedoooooo");
-scanf("/d&d");
-return 0;
-
-
-
-}
