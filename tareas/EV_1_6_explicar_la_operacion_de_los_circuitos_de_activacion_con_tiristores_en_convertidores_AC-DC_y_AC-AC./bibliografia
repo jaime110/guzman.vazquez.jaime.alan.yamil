@@ -1,0 +1,23 @@
+% Encoding: UTF-8
+
+@Article{profesormolina2.webcindario.com,
+  author  = {profesormolina2.webcindario.com},
+  journal = {profesormolina2.webcindario.com},
+  title   = {tiristores.},
+  year    = {2016},
+}
+
+@Article{issuu.com,
+  author  = {issuu.com},
+  journal = {issuu},
+  title   = {convertidores con tiristores},
+  year    = {2015},
+}
+
+@Article{universidadoviedo,
+  author  = {universidad oviedo},
+  journal = {universidad oviedo},
+  title   = {convertidores CA/CD y CA/CA con tiristores},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
