@@ -1,0 +1,15 @@
+% Encoding: UTF-8
+
+@Article{electronicabasica.blogspot,
+  author = {electronicabasica.blogspot},
+}
+
+@Article{ecured.cu,
+  author = {ecured.cu},
+}
+
+@Article{ft.unicamp.br,
+  author = {ft.unicamp.br},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
