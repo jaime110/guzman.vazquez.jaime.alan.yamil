@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+%Gummi|065|=)
+\title{\textbf{Motores de corriente directa.}}
+\author{Jaime Alan Guzman Vazquez }
+\date{15 de octubre}
+\usepackage{graphicx}
+\begin{document}
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=1.00]{imagenes/índice.png}
+\caption{}
+\label{}
+\end{figure}
+\maketitle
+
+\section{Funcionamiento}
+Para comenzar a hablar de este tipo de motores es necesario explicar el funcionamiento de estos y en que leyes se basan sus principios para asi tener una mejor comprension de lo que pasa dentro de un motor, de donde se origina su velocidad,su torque o incluso su direccion de movimiento.\\\\
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.60]{imagenes/motor.jpeg}
+\caption{funcionamiento motor}
+\label{funcionamiento de un motor electrico DC}
+\end{figure}
+El principio de accion de estos motores sebasa en la repulsion que ejercen los polos magneticos de un iman permanente cuando, de acuerdo a la ley de Lorentz, estos interactuan con los polos magneticos de un electroiman que se encuentra montado en un eje, Este eñlectroiman se denomina rotor y su eje permite girar libremente entre los polos magneticos norte y sur del iman permanente situado dentro de la caracasa o cuerpo del motor.\\\\
+
+Cuando la corriente electrica circula por la bobina de este electroiman  giratorio, el campo electromagnetico que se genera interactua con el campo magnetico del iman permanente.\\ 
+
+si los polos del iman permanente y del electroiman giratorio coinciden, se produce un rechazo y un torque magnetico o par de fuerza  que provoca que el rotor rompa la inercia y comienze a girar sobre su eje en el mismo sentido de las manecillas del reloj en unos casos o sentidos y en algunos otros en el otro de acuerdo a la forma en la que este conectada los polos del mismo.\\\\
+
+Ademas se debe mencionar el uso del conmutador o colector esta es la parte central del motor ya que es una solucion al problema que se tendria de si la bobina o elctroiman  estaria rotando de manera rapida y con grnma torque terminaria por enredarse los cables puesto que es la que se esta energizando debido a esto se vio la necesidad de crear el conmutador que por medio de dos placas de metal se elertifica el elctroiman conectado a un poste que hace las de cable asi se evita el cruzado de los cables  ademas de tener menos desgaste en el motor y mayor funcionalidad.\\
+
+Esta es la funcion basica con la que acciona un motor, de aqui se pueden derivar cuestiones como lo serian el torque dado por la fuerza electromagnetica ya sea de repulsion o atraccion de las dos partes del motor que hacen que se origine el movimiento dependiendo de esto es el torque del motor y dependiendo de la configuracion se debe escoger un motor que entregue mas fuerza o torque o uno que entregue mas velocidad o revoluciones por segundo dependiendo de las diferentes funciones que se requieran.\\
+
+Otra de las cosas que se deben tomar en cuenta es que el motor va a funcionar de manera diferente dependiendo de la forma en la que este conectado, muy especificamente de los polos que se usan como positivo y como negativo, Esta es la funcion que puede ser controlada por un puente H, este invierte por asi decirlo la polarizacion del motor en fucion de los transistores que pueden dejar pasar la energia por una linea o por otra formando las polarizaciones y haciendo que este cambie de rumbo.\\
+
+Tambien al momento de que el cambio de direccion se efectua se tiene cierta inercia debido a la generada mientras se giraba para girar hacia el lado contrario se es necesario o recomendable el detener el suministrpo de energia al motor para continuar con su reabastecimiento posteriormente, esta vez con la polarizacion contraria para que se eviten cuestones como cortos circuitos o mal fucionamientos en el motor por el desgaste de no hacer lo anterior, Para esto mucos de los motores utilizados en brazos roboticos utilizan un por asi decirlo "clutch" que hace que la transferencia de una dirrecion a la otra sea mas eficiente y menos desgastante para el motor.\\
+
+\section{Tipos de configuraciones }
+
+Si hablamos de configuraciones realmente del motor se pueden encontrar muy pocas esto en funcion de como conectemos los devanados, podrian conseuir las siguientes configuraciones:\\
+
+*Maquina de excitacion independiente.\\
+Son aquellos que obtienen la alimentacion del rotor y del estator de dos fuentes de tension independientes . con ello el campo de estator es independiente de la carga del motor y por lo tanto tiene un par de fueraz constante.\\
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.50]{imagenes/independiennte.png}
+\caption{}
+\label{excitacion independiente.}
+\end{figure}
+
+*Maquina serie.\\
+En esta configuracion se conectan el devanado del inductor y el inducido en serie, por lo tanto el voltaje aplicado es constante mientras que el campo de excitacion aumenta con la carga.\\
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.50]{imagenes/serie.jpg}
+\caption{configuracion en serie}
+\label{configuracion en serie}
+\end{figure}
+
+
+*Maquina shunt.\\
+En esta configuracion el inductor prinncipal esta conectado en paralelo con el circuito formado por los bobinados inducido e inductor auxiliar,esta configuracion tiene una resistencia del bobinado inductor principal muy grande esto es muy til cuando se necesita una velocidad constante.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.50]{imagenes/shunt.jpg}
+\caption{configuracion shunt}
+\label{configuracion shunt}
+\end{figure}
+
+*Maquina compound.\\
+Esta cofiguracion se forma al momento de conectar dos embobinados independientes, uno dispuesto en serie con el bobinado induciso y el otro conectado en derivacion con el circuito formado por los bobinados:inducido, inductor serie e 
+inductor auxiliar. 
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.50]{imagenes/motor coumpound.jpg}
+\caption{configuracion compound}
+\label{.}
+\end{figure}
+
+\section{Usos}
+Los usos de este tipo de motores asi como de las configuraciones es muy basto es inclinado mayormente a las operaciones de baja potencia, son mas compactos pero tambien mas caros debido a los componentes que contienen en su innterior ademas de tener un mantenimiento mas delicado y especializado, estos pueden ser usados para brazos roboticos, impresoras 3D ademas de muchas mas utilidades para las que los motores  de corriente directa asi como sus configuraciones son especialmente utiles.
+
+\maketitle
+\section{Bibliografia}
+
+ecured.cu\\
+automatismoindustrial.com\\
+dissenyproduct.blogspot.com\\ 
+\end{document}
